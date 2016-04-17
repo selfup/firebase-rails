@@ -15,4 +15,4 @@
 # Ignore application configuration
 /config/application.yml
 # Ignore test coverage files from SimpleCov
-/coverage
+app/assets/javascripts/00url.js.es6

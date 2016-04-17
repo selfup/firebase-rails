@@ -13,6 +13,7 @@ gem 'pg'
 gem "active_model_serializers", github: "rails-api/active_model_serializers"
 gem 'sprockets', '>= 3.0.0'
 gem 'sprockets-es6'
+gem 'firebase'
 
 group :development, :test do
   gem 'pry'
