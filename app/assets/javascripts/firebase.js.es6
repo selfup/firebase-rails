@@ -12,12 +12,12 @@ class fBase {
 
   get post() {
     this.firebase.set({
-      title: this.title,
-      author: this.author,
-      location: {
-        city: this.city,
-        state: this.state,
-        zip: this.zip
+        title: this.title,
+        author: this.author,
+        location: {
+          city: this.city,
+          state: this.state,
+          zip: this.zip
       }
     })
   }
